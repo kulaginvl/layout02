@@ -1,0 +1,437 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+}
+body,
+html{
+    overflow-x: hidden;
+}
+
+.c-hamburger{
+display: none;
+}
+nav{
+    margin:0 auto;
+    max-width: 1445px;
+    width: 100%;
+    max-height: 655px;
+}
+.menu{
+    max-width: 945px;
+    margin: 0;
+    margin-left: 250px;
+    padding: 0;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: 1px solid #828282;
+}
+.menu li a{
+    color: #828282;
+    text-decoration: none;
+    align-self: center;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+.menu li a:hover{
+    color: #070707;
+}
+.intro{
+    margin-left: 250px;
+    max-width: 945px;
+}
+.intro .mobile-img{
+    display: none;
+}
+.intro .intro-text{
+    padding-top: 31px;
+    padding-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.intro .intro-text h1{
+    color: #070707;
+    font-size: 47px;
+    line-height: 56px;
+}
+.intro .intro-text p{
+    font-size: 18px;
+    position: relative;
+    top: 51px;
+}
+.intro .intro-text p.lang{
+    transform: rotate(-90deg);
+    left: 80px;
+    top: 2px;
+    font-size: 16px;
+    line-height: 20px;
+    color:#828282;
+    
+}
+.intro .intro-text p.lang span{
+    color: #070707;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1445px;
+    width: 100%;
+  }
+.about {
+    height: 506px;
+    background: #F6F6F6;
+    text-align: center;       
+}
+.about h2{
+    font-size: 34px;
+    padding-top: 110px;
+}
+.about p{
+    line-height: 21px;
+    font-size: 18px;
+    margin-bottom: 52px;
+    margin-left: 480px;
+    align-items: center;
+    width: 465px;
+}
+.skill {
+    width: 100%;
+    max-width: 945px;
+    margin: 0 auto;
+    margin-top: 91px;
+}
+.skill h2{
+    font-size: 34px;
+    text-align: center;
+}
+.skill .skill-text{
+    font-size: 18px;
+    text-align: center;
+    margin: 41px;
+}
+.progs {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+.stars i{
+    width: 26px;
+    height: 26px;
+    color: #E5E5E5;
+    cursor: pointer;
+    margin-top: 42px;
+}
+.stars-last i{
+    margin-top: 59px;
+}
+.stars i:hover{
+    color: #070707;
+}
+.skill .prog-name{
+    font-size: 14px;
+    color: #828282;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.progs .prog img{
+    margin-left: 17px;
+    margin-top: 16px;
+}
+.portfolio{
+    height: 2253px;
+    background: #F6F6F6;
+}
+.portfolio h2{
+    padding-top: 117px;
+    text-align: center;
+    font-size: 34px;
+    color: #070707;
+}
+
+.portfolio .web2{
+    display: none;
+}
+.portfolio .web1{
+    margin-left: 257px;
+    margin-top: 50px;
+}
+
+.portfolio a p{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #070707;
+    line-height: 22px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.portfolio a p:hover{
+    color: #fff;
+}
+
+
+.raiting{
+    display: flex;
+}
+.rating-item{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.rating-item.active{
+    background-color: yellow;
+}
+
+
+footer h2{
+    text-align: center;
+    font-size: 34px;
+    color: #070707;
+    padding-top: 105px;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+    color: #070707;
+    margin-top: 5px;
+}
+footer .button a{
+    border: 1px solid #070707;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    background: #070707;
+    width: 181px;
+    height: 42px;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 632px;
+    margin-top: 25px;
+
+}
+footer .button a:hover{
+    color: #070707;
+    background: #fff;
+}
+footer ul{
+    list-style-type: none;
+    margin-left: 498px;
+	margin-top: 84px;
+	padding: 0;	
+}
+footer ul li{
+    display: inline-block;
+	margin-left: 55px;
+}
+footer .elike p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-top: 34px;
+    margin-bottom: 122px;
+}
+
+@media screen and (max-width: 765px) {
+    nav{
+        max-height: 1500px;
+    }
+    .c-hamburger{
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 300px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 62px;
+        height: 62px;
+        font-size: 0;
+        box-shadow: none;
+        cursor: pointer;
+        background: #fff;
+        border: none;
+     }
+     .c-hamburger:focus{
+         outline: none;
+     }
+     .c-hamburger span{
+         display: block;
+         position: absolute;
+         left: 15px;
+         right: 15px;
+         height: 5px;
+         background: #000;
+     }
+     .c-hamburger span::before, .c-hamburger span::after{
+         position: absolute;
+         display: block;
+         left: 0;
+         width: 100%;;
+         height: 5px;
+         background: #000;
+         content: "";
+     }
+     .c-hamburger span::before{
+         top: -15px;
+     }
+     .c-hamburger span::after{
+         bottom: -15px;
+     }
+     .c-hamburger-line span{
+         transition: background 0s .3s;
+     }
+     .c-hamburger-line span::before, .c-hamburger-line span::after{
+         transition-duration: .3s, .3s;
+         transition-delay: .3s, 0s;
+     }
+     .c-hamburger-line span::before{
+         transition-property: top, transform;
+     }
+     .c-hamburger-line span::after{
+         transition-property: bottom, transform;
+     }
+     
+     .c-hamburger-line.is-active span{
+         background: none;
+     }
+     .c-hamburger-line.is-active span::before{
+         top: 0;
+         transform: rotate(-45deg);
+     }
+     .c-hamburger-line.is-active span::after{
+         bottom: 0;
+         transform: rotate(45deg);
+     }
+     .c-hamburger-line.is-active span::before, .c-hamburger-line.is-active span::after{
+         transition-delay: 0s, .3s;
+     }
+     #checkbox-menu {
+        margin-bottom: -600px;
+        transition: all ease 1s;
+    }
+    #checkbox-menu.nav-active{
+        margin-bottom: 0;
+    }
+    .body-active{
+        margin-bottom: 100px;
+    }
+    .menu{
+        margin: 0 auto;
+        max-width: 1100px;
+        width: 100%;
+        flex-direction: column;
+        height: 600px; 
+        
+    }
+    .menu li{
+        margin: 27px;
+        display: block;
+        width: 95%;
+        justify-content: space-between;
+        padding-left: 38px;
+    }
+    .menu li:first-child{
+        margin-top: 68px;
+    }
+    .menu li a {
+        font-size: 34px;
+        line-height: normal; 
+    }
+    .intro {
+        margin: 0 auto;
+        max-width: 1100px;
+        width: 100%;
+      }
+    .intro .intro-text  {
+        display: block;
+        margin-left: 29px;
+        font-size: 18px;
+      }
+      .intro .intro-text p{
+          top: 22px;
+      }
+      .intro .intro-text p.lang{
+          position: absolute;
+          font-size: 28px;
+          right: -230px;
+          top: -40px;
+      }
+      .intro .main-img{
+        display: none;
+    }
+      .intro .mobile-img{
+        display: block;
+        width: auto;
+        height: auto;
+        padding: 30px;
+        padding-bottom: 122px;
+    }
+    .about{
+        height: 100%;
+        margin: 0 auto;
+        max-width: 1100px;
+        width: 100%;
+    }
+    .about h2{
+        padding-top: 82px;
+    }
+    .about p {
+        margin-left: 30px;
+        width: 316px;
+    }
+    .about p:last-child{
+        padding-bottom: 80px;
+    }
+    .progs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .progs .prog img{
+        margin-top: 85px;
+    }
+    .portfolio{
+        height: 1235px;
+    }
+    .portfolio h2{
+        padding-top: 94px;
+    }
+    .portfolio .web1{
+        display: none;
+    }
+    .portfolio .web2{
+        display: block;
+        margin-left: 29px;
+        margin-top: 88px;
+    }
+    footer h2{
+        padding-top: 85px;
+    }
+    footer .button a{
+        width: 316px;
+        margin-left: 30px;
+    }
+    footer ul{
+        margin-left: 0px;
+        margin-top: 48px;
+    }
+    footer ul li{
+        margin-left: 42px;
+    }
+    footer .elike p{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+} 
